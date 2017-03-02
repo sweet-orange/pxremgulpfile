@@ -1,0 +1,44 @@
+/*// html,*/
+
+body {
+    margin: 0 auto;
+    max-width: 640px;
+    /* no */
+}
+
+body {
+    /*font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Microsoft Yahei", Microsoft JhengHei, Hiragino Sans GB, NotoSans-Regular, Helvetica, Arial, sans-serif;
+    /*// -webkit-font-smoothing: antialiased;*/
+    /*// -moz-osx-font-smoothing: grayscale;*/
+    /*// -moz-font-feature-settings: "liga", "kern";*/
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #FFF;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+}
+
+input,
+textarea {
+    -webkit-appearance: none;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}

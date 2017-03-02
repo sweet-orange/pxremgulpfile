@@ -1,0 +1,45 @@
+.header {
+    width: 640px;
+    height: 115px;
+    background-color: #00576a;
+    text-align: center;
+}
+
+.header img {
+    width: 610px;
+    height: 65px;
+    margin-top: 25px;
+}
+
+nav {
+    height: 72px;
+}
+
+nav ul {
+    width: 640px;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li+li {
+    border-left: 1px solid #323232;
+    /*no*/
+}
+
+nav ul li a {
+    height: 24px;
+    color: #323232;
+    font-size: 24px;
+}
+
+.banner {
+    width: 640px;
+    height: 400px;
+    background: url(../images/banner1.jpg)no-repeat center;
+    background-size: 640px 400px;
+}
